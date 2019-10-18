@@ -20,12 +20,7 @@ pool:
         publishJUnitResults: false
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'package'
-steps:
-  - task: PublishCodeCoverageResults@1
-    inputs:
-      codeCoverageTool: "JaCoCo"
-      summaryFileLocation: "$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml"
-      reportDirectory: "$(System.DefaultWorkingDirectory)/**/site/jacoco"
-      failIfCoverageEmpty: true
+
+
 
 
