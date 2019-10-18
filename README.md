@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/jayantanantbhat/POCPipeline2/_apis/build/status/jayantbhat1983.test?branchName=master)](https://dev.azure.com/jayantanantbhat/POCPipeline2/_build/latest?definitionId=2&branchName=master)
